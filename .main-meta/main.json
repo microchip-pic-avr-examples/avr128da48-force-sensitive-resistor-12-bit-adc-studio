@@ -5,25 +5,25 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128da48-force-sensitive-resistor-12-bit-adc-studio",
         "version": "1.0.0",
-        "displayName": "  ",
+        "displayName": "AVR128DA48 12-bit ADC with Force Sensitive Resistor",
         "projectName": "avr128da48-force-sensitive-resistor-12-bit-adc-studio",
-        "shortDescription": "",
+        "shortDescription": "Example demonstrating 12-bit ADC using force sensitive resistor on the Force Click. ADC results sent to an android/iOS app over Bluetooth communication using RN4870/71 Click and to a serial terminal. Per applied force, LEDs illuminated on 4x4 RGB Click",
         "ide": {
             "name": "STUDIO",
-            "semverRange": ""
+            "semverRange": ">=7.0.2537"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "AVR GCC",
+				"semverRange": "^5.4.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.6.76"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -32,16 +32,59 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "AVR128DA48",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
+		    [
+               "Peripherals", "ADC"
+            ],
+            [
+               "Peripherals", "USART"
+            ],
+            [
+               "Peripherals", "GPIO"
+            ],
+			[
+               "Peripherals", "CLKCTRL"
+            ],
+			[
+               "Peripherals", "VREF"
+            ],
+			[
+               "Development Kit", "AVR128DA48 Curiosity Nano"
+            ],
+            [
+               "Development Kit", "Curiosity Nano Base for Click boards"
+            ],
+            [
+               "Development Kit", "MIKROE-2065 Click board"
+            ],
+			[
+               "Development Kit", "MIKROE-2543 Click board"
+            ],
+			[
+               "Development Kit", "MIKROE-1881 Click board"
+            ],
+			[
+			   "Supporting Tools", "Data Visualizer"
+			]
         ],
         "peripherals": [
+			"ADC","USART","GPIO","CLKCTRL","VREF"
         ],
         "keywords": [
+			"12-bit ADC",
+			"Oversampling",
+			"Sample-accumulation",
+			"Free-Running",
+			"Bluetooth",
+			"RGB-Click",
+			"Force-Click",
+			"RN4870"
+			
         ],
 		"additionalData": {
 			"longDescription": {
